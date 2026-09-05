@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <linearGradient id="futBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07152B" />
+      <stop offset="60%" stop-color="#0F2445" />
+      <stop offset="100%" stop-color="#0A182F" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#futBg)" />
+
+  <!-- Constellations / Interconnected Philippine Islands Network -->
+  <g opacity="0.4" stroke="#1E6FD9" stroke-width="1.5">
+    <!-- Luzon cluster -->
+    <line x1="380" y1="140" x2="480" y2="180" />
+    <line x1="480" y1="180" x2="420" y2="260" />
+    <line x1="420" y1="260" x2="350" y2="220" />
+    <line x1="350" y1="220" x2="380" y2="140" />
+
+    <!-- Visayas cluster -->
+    <line x1="420" y1="260" x2="560" y2="340" />
+    <line x1="560" y1="340" x2="650" y2="320" />
+    <line x1="650" y1="320" x2="590" y2="400" />
+    <line x1="590" y1="400" x2="520" y2="380" />
+    <line x1="520" y1="380" x2="560" y2="340" />
+
+    <!-- Mindanao cluster -->
+    <line x1="590" y1="400" x2="680" y2="480" />
+    <line x1="680" y1="480" x2="740" y2="540" />
+    <line x1="740" y1="540" x2="610" y2="560" />
+    <line x1="610" y1="560" x2="580" y2="490" />
+    <line x1="580" y1="490" x2="680" y2="480" />
+  </g>
+
+  <!-- Glowing Nodes -->
+  <circle cx="480" cy="180" r="7" fill="#FCD116" />
+  <circle cx="420" cy="260" r="9" fill="#38BDF8" />
+  <circle cx="560" cy="340" r="7" fill="#38BDF8" />
+  <circle cx="650" cy="320" r="6" fill="#FCD116" />
+  <circle cx="590" cy="400" r="8" fill="#38BDF8" />
+  <circle cx="680" cy="480" r="9" fill="#38BDF8" />
+  <circle cx="740" cy="540" r="7" fill="#FCD116" />
+
+  <!-- Center Card: Human-Centered Technology Future -->
+  <g transform="translate(180, 100)">
+    <rect width="840" height="470" rx="20" fill="#0B1A33" stroke="#21375B" stroke-width="2" opacity="0.94" />
+    
+    <text x="40" y="55" fill="#38BDF8" font-family="sans-serif" font-size="13" font-weight="700" letter-spacing="1">THE VISION FOR PHILIPPINE EDUCATION</text>
+    <text x="40" y="90" fill="#FFFFFF" font-family="sans-serif" font-size="24" font-weight="800">Bridging Technology Access &amp; Preserving the Human Heart of Teaching</text>
+
+    <!-- 3 Future Pillars -->
+    <g transform="translate(40, 130)">
+      <!-- Pillar 1: Digital Equity -->
+      <rect width="235" height="230" rx="12" fill="#11223F" stroke="#1E6FD9" stroke-width="1.2" />
+      <circle cx="40" cy="40" r="20" fill="#183664" />
+      <text x="40" y="46" fill="#60A5FA" font-family="sans-serif" font-size="16" text-anchor="middle">📡</text>
+      <text x="24" y="90" fill="#FFF" font-family="sans-serif" font-size="15" font-weight="700">Digital Equity</text>
+      <text x="24" y="115" fill="#94A3B8" font-family="sans-serif" font-size="12" line-height="1.5">Ensuring rural and under-resourced public schools are not left behind as urban centers adopt AI tools.</text>
+      <rect x="24" y="180" width="187" height="28" rx="6" fill="#172B4B" />
+      <text x="34" y="198" fill="#FCD116" font-family="sans-serif" font-size="11" font-weight="600">Addressing Connectivity</text>
+    </g>
+
+    <g transform="translate(300, 130)">
+      <!-- Pillar 2: Teacher Mentorship -->
+      <rect width="235" height="230" rx="12" fill="#11223F" stroke="#FCD116" stroke-width="1.2" />
+      <circle cx="40" cy="40" r="20" fill="#383015" />
+      <text x="40" y="46" fill="#FCD116" font-family="sans-serif" font-size="16" text-anchor="middle">👩‍🏫</text>
+      <text x="24" y="90" fill="#FFF" font-family="sans-serif" font-size="15" font-weight="700">Empowered Teachers</text>
+      <text x="24" y="115" fill="#94A3B8" font-family="sans-serif" font-size="12">AI handles routine administrative paperwork; Filipino teachers focus on mentorship, values, and guidance.</text>
+      <rect x="24" y="180" width="187" height="28" rx="6" fill="#172B4B" />
+      <text x="34" y="198" fill="#60A5FA" font-family="sans-serif" font-size="11" font-weight="600">Unreplaceable Mentors</text>
+    </g>
+
+    <g transform="translate(560, 130)">
+      <!-- Pillar 3: Student Preparedness -->
+      <rect width="240" height="230" rx="12" fill="#11223F" stroke="#10B981" stroke-width="1.2" />
+      <circle cx="40" cy="40" r="20" fill="#123B28" />
+      <text x="40" y="46" fill="#34D399" font-family="sans-serif" font-size="16" text-anchor="middle">🎓</text>
+      <text x="24" y="90" fill="#FFF" font-family="sans-serif" font-size="15" font-weight="700">Student Readiness</text>
+      <text x="24" y="115" fill="#94A3B8" font-family="sans-serif" font-size="12">Equipping Filipino learners with critical thinking, ethical discernment, and global technology competence.</text>
+      <rect x="24" y="180" width="192" height="28" rx="6" fill="#172B4B" />
+      <text x="34" y="198" fill="#34D399" font-family="sans-serif" font-size="11" font-weight="600">Independent Innovators</text>
+    </g>
+
+    <!-- Bottom Banner -->
+    <rect x="40" y="385" width="760" height="50" rx="8" fill="#152745" stroke="#1E6FD9" stroke-width="1" />
+    <text x="420" y="416" fill="#FCD116" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">"The Future of Learning in the Philippines Needs Human Compassion and Human Thinking."</text>
+  </g>
+</svg>

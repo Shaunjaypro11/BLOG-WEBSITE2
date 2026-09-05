@@ -18,7 +18,17 @@
   <meta name="twitter:card" content="summary_large_image">
 
   <link rel="stylesheet" href="../style.css">
-  <script defer src="../script.js"></script>
+  <script>
+    (function() {
+      try {
+        var saved = localStorage.getItem('ai_learning_ph_theme');
+        var systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        var theme = saved || (systemDark ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', theme);
+      } catch(e) {}
+    })();
+  </script>
+  <script type="module" src="/script.js"></script>
 </head>
 <body>
   <a href="#main-article-content" class="skip-link">Skip to article content</a>
@@ -268,7 +278,9 @@
           <!-- Related 1 -->
           <article class="post-card">
             <div class="post-card-thumb">
-              <img src="../images/filipino-student-study.jpg" alt="Filipino college student studying with laptop and books in a library" referrerpolicy="no-referrer" loading="lazy">
+              <a href="ai-filipino-students.html" class="post-card-thumb-link" aria-label="Read How Filipino Students Can Use AI Without Cheating">
+                <img src="../images/filipino-student-study.jpg" alt="Filipino college student studying with laptop and books in a library" referrerpolicy="no-referrer" loading="lazy">
+              </a>
             </div>
             <div class="post-card-body">
               <span class="badge badge-ph post-card-category">Responsible AI</span>
@@ -276,7 +288,7 @@
               <p class="post-card-excerpt">A practical guide to ethical boundaries, study partnerships, and adhering to school honor codes.</p>
               <div class="post-card-footer">
                 <span>⏱ 7 min read</span>
-                <span>Read More →</span>
+                <a href="ai-filipino-students.html" class="post-card-readmore">Read More →</a>
               </div>
             </div>
           </article>
@@ -284,7 +296,9 @@
           <!-- Related 2 -->
           <article class="post-card">
             <div class="post-card-thumb">
-              <img src="../images/student-fact-checking.jpg" alt="Student cross-referencing research documents and laptop sources" referrerpolicy="no-referrer" loading="lazy">
+              <a href="ai-fact-checking.html" class="post-card-thumb-link" aria-label="Read Can Filipino Students Trust AI Answers? Fact-Checking">
+                <img src="../images/student-fact-checking.jpg" alt="Student cross-referencing research documents and laptop sources" referrerpolicy="no-referrer" loading="lazy">
+              </a>
             </div>
             <div class="post-card-body">
               <span class="badge badge-ph post-card-category">Digital Literacy</span>
@@ -292,7 +306,7 @@
               <p class="post-card-excerpt">Understand why AI can sound confident even when incorrect, and master a 6-step verification routine.</p>
               <div class="post-card-footer">
                 <span>⏱ 6 min read</span>
-                <span>Read More →</span>
+                <a href="ai-fact-checking.html" class="post-card-readmore">Read More →</a>
               </div>
             </div>
           </article>
@@ -300,7 +314,9 @@
           <!-- Related 3 -->
           <article class="post-card">
             <div class="post-card-thumb">
-              <img src="../images/rural-ph-hybrid-school.jpg" alt="Filipino students learning with digital tablet in a bright province classroom" referrerpolicy="no-referrer" loading="lazy">
+              <a href="ai-future-philippine-education.html" class="post-card-thumb-link" aria-label="Read The Future of AI in Philippine Education">
+                <img src="../images/rural-ph-hybrid-school.jpg" alt="Filipino students learning with digital tablet in a bright province classroom" referrerpolicy="no-referrer" loading="lazy">
+              </a>
             </div>
             <div class="post-card-body">
               <span class="badge badge-ph post-card-category">Future of Education</span>
@@ -308,7 +324,7 @@
               <p class="post-card-excerpt">Examining digital equity, teacher empowerment, and the enduring human element in future learning.</p>
               <div class="post-card-footer">
                 <span>⏱ 8 min read</span>
-                <span>Read More →</span>
+                <a href="ai-future-philippine-education.html" class="post-card-readmore">Read More →</a>
               </div>
             </div>
           </article>

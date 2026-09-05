@@ -17,7 +17,17 @@
   <meta name="twitter:card" content="summary_large_image">
 
   <link rel="stylesheet" href="../style.css">
-  <script defer src="../script.js"></script>
+  <script>
+    (function() {
+      try {
+        var saved = localStorage.getItem('ai_learning_ph_theme');
+        var systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        var theme = saved || (systemDark ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', theme);
+      } catch(e) {}
+    })();
+  </script>
+  <script type="module" src="/script.js"></script>
 </head>
 <body>
   <a href="#main-article-content" class="skip-link">Skip to article content</a>
@@ -266,37 +276,52 @@
         <div class="posts-grid" style="grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));">
           <article class="post-card">
             <div class="post-card-thumb">
-              <img src="../images/ph-classroom-ai.jpg" alt="AI in Philippine Education overview" referrerpolicy="no-referrer" loading="lazy">
+              <a href="ai-philippine-education.html" class="post-card-thumb-link" aria-label="Read AI in Philippine Education: Learning Smarter">
+                <img src="../images/ph-classroom-ai.jpg" alt="AI in Philippine Education overview" referrerpolicy="no-referrer" loading="lazy">
+              </a>
             </div>
             <div class="post-card-body">
               <span class="badge badge-ph post-card-category">AI &amp; Education</span>
               <h4 class="post-card-title"><a href="ai-philippine-education.html">AI in Philippine Education: Learning Smarter</a></h4>
               <p class="post-card-excerpt">How Filipino students can navigate AI tools, digital literacy, and academic responsibility.</p>
-              <div class="post-card-footer"><span>⏱ 8 min read</span><span>Read More →</span></div>
+              <div class="post-card-footer">
+                <span>⏱ 8 min read</span>
+                <a href="ai-philippine-education.html" class="post-card-readmore">Read More →</a>
+              </div>
             </div>
           </article>
 
           <article class="post-card">
             <div class="post-card-thumb">
-              <img src="../images/student-study-desk.jpg" alt="Organized student desk setup with study schedule" referrerpolicy="no-referrer" loading="lazy">
+              <a href="ai-student-productivity.html" class="post-card-thumb-link" aria-label="Read AI and Student Productivity: Managing Schoolwork">
+                <img src="../images/student-study-desk.jpg" alt="Organized student desk setup with study schedule" referrerpolicy="no-referrer" loading="lazy">
+              </a>
             </div>
             <div class="post-card-body">
               <span class="badge badge-ph post-card-category">Student Productivity</span>
               <h4 class="post-card-title"><a href="ai-student-productivity.html">AI and Student Productivity: Managing Schoolwork</a></h4>
               <p class="post-card-excerpt">Balancing commute times, heavy course loads, and group capstone tasks using smart digital organization.</p>
-              <div class="post-card-footer"><span>⏱ 7 min read</span><span>Read More →</span></div>
+              <div class="post-card-footer">
+                <span>⏱ 7 min read</span>
+                <a href="ai-student-productivity.html" class="post-card-readmore">Read More →</a>
+              </div>
             </div>
           </article>
 
           <article class="post-card">
             <div class="post-card-thumb">
-              <img src="../images/student-fact-checking.jpg" alt="Fact checking AI answers in Philippine student research" referrerpolicy="no-referrer" loading="lazy">
+              <a href="ai-fact-checking.html" class="post-card-thumb-link" aria-label="Read Can Filipino Students Trust AI Answers?">
+                <img src="../images/student-fact-checking.jpg" alt="Fact checking AI answers in Philippine student research" referrerpolicy="no-referrer" loading="lazy">
+              </a>
             </div>
             <div class="post-card-body">
               <span class="badge badge-ph post-card-category">Digital Literacy</span>
               <h4 class="post-card-title"><a href="ai-fact-checking.html">Can Filipino Students Trust AI Answers?</a></h4>
               <p class="post-card-excerpt">Why AI hallucinations happen and how to systematically verify claims using authoritative Philippine sources.</p>
-              <div class="post-card-footer"><span>⏱ 6 min read</span><span>Read More →</span></div>
+              <div class="post-card-footer">
+                <span>⏱ 6 min read</span>
+                <a href="ai-fact-checking.html" class="post-card-readmore">Read More →</a>
+              </div>
             </div>
           </article>
         </div>
