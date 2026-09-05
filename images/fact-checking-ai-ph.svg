@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <linearGradient id="factBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#091629" />
+      <stop offset="50%" stop-color="#12253E" />
+      <stop offset="100%" stop-color="#081323" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#factBg)" />
+
+  <!-- Subtle verification grid -->
+  <g opacity="0.07" stroke="#FFF" stroke-width="1">
+    <circle cx="600" cy="337" r="280" fill="none" />
+    <circle cx="600" cy="337" r="160" fill="none" />
+  </g>
+
+  <!-- Left: AI Output with Hallucination / Warning alert -->
+  <g transform="translate(140, 120)">
+    <rect width="420" height="430" rx="14" fill="#0D192C" stroke="#CE1126" stroke-width="2" />
+    <rect x="20" y="20" width="380" height="40" rx="8" fill="#20131B" />
+    <circle cx="42" cy="40" r="7" fill="#EF4444" />
+    <text x="58" y="44" fill="#FCA5A5" font-family="sans-serif" font-size="12" font-weight="700">UNVERIFIED AI CLAIM DETECTED</text>
+
+    <!-- Simulated Prompt and Response -->
+    <rect x="20" y="75" width="380" height="50" rx="6" fill="#14223A" />
+    <text x="32" y="95" fill="#94A3B8" font-family="sans-serif" font-size="11">Student Query:</text>
+    <text x="32" y="112" fill="#E2E8F0" font-family="sans-serif" font-size="12">"Cite Philippine law on renewable microgrids in 2024..."</text>
+
+    <rect x="20" y="140" width="380" height="150" rx="6" fill="#182338" />
+    <text x="32" y="165" fill="#FCD116" font-family="sans-serif" font-size="11" font-weight="700">AI Response (Sounds Confident):</text>
+    <text x="32" y="190" fill="#CBD5E1" font-family="sans-serif" font-size="12">"According to Republic Act No. 19842 (Section 4b)..."</text>
+    
+    <!-- Red Alert Flag -->
+    <rect x="32" y="210" width="356" height="60" rx="6" fill="#2E121A" stroke="#EF4444" stroke-width="1" />
+    <text x="44" y="232" fill="#EF4444" font-family="sans-serif" font-size="11" font-weight="700">⚠️ HALLUCINATED CITATION</text>
+    <text x="44" y="252" fill="#FCA5A5" font-family="sans-serif" font-size="11">RA 19842 does not exist. AI invented the statute number.</text>
+
+    <rect x="20" y="310" width="380" height="90" rx="8" fill="#101C30" stroke="#334155" stroke-width="1" />
+    <text x="32" y="334" fill="#94A3B8" font-family="sans-serif" font-size="11" font-weight="600">The Problem:</text>
+    <text x="32" y="354" fill="#E2E8F0" font-family="sans-serif" font-size="12">AI predicts language probability, not factual truth.</text>
+    <text x="32" y="374" fill="#60A5FA" font-family="sans-serif" font-size="11">Filipino students must verify against primary legal &amp; academic records.</text>
+  </g>
+
+  <!-- Center Arrow -->
+  <g transform="translate(575, 305)">
+    <circle cx="25" cy="25" r="25" fill="#1E6FD9" />
+    <path d="M15 25 L35 25 M27 17 L35 25 L27 33" stroke="#FFF" stroke-width="2.5" stroke-linecap="round" />
+  </g>
+
+  <!-- Right: The 6-Step Philippine Student Fact-Checking Protocol -->
+  <g transform="translate(640, 120)">
+    <rect width="420" height="430" rx="14" fill="#0D192C" stroke="#10B981" stroke-width="2" />
+    <rect x="20" y="20" width="380" height="40" rx="8" fill="#0F2B20" />
+    <circle cx="42" cy="40" r="7" fill="#10B981" />
+    <text x="58" y="44" fill="#6EE7B7" font-family="sans-serif" font-size="12" font-weight="700">STUDENT VERIFICATION PROTOCOL</text>
+
+    <!-- 6 steps -->
+    <g transform="translate(20, 75)">
+      <rect width="380" height="42" rx="6" fill="#132338" />
+      <circle cx="24" cy="21" r="12" fill="#1E6FD9" />
+      <text x="24" y="25" fill="#FFF" font-family="sans-serif" font-size="11" font-weight="700" text-anchor="middle">1</text>
+      <text x="48" y="25" fill="#E2E8F0" font-family="sans-serif" font-size="12">Check where the information originated</text>
+
+      <g transform="translate(0, 50)">
+        <rect width="380" height="42" rx="6" fill="#132338" />
+        <circle cx="24" cy="21" r="12" fill="#1E6FD9" />
+        <text x="24" y="25" fill="#FFF" font-family="sans-serif" font-size="11" font-weight="700" text-anchor="middle">2</text>
+        <text x="48" y="25" fill="#E2E8F0" font-family="sans-serif" font-size="12">Cross-check with peer-reviewed journals / libraries</text>
+      </g>
+
+      <g transform="translate(0, 100)">
+        <rect width="380" height="42" rx="6" fill="#132338" />
+        <circle cx="24" cy="21" r="12" fill="#1E6FD9" />
+        <text x="24" y="25" fill="#FFF" font-family="sans-serif" font-size="11" font-weight="700" text-anchor="middle">3</text>
+        <text x="48" y="25" fill="#E2E8F0" font-family="sans-serif" font-size="12">Inspect publication dates &amp; Philippine context</text>
+      </g>
+
+      <g transform="translate(0, 150)">
+        <rect width="380" height="42" rx="6" fill="#132338" />
+        <circle cx="24" cy="21" r="12" fill="#1E6FD9" />
+        <text x="24" y="25" fill="#FFF" font-family="sans-serif" font-size="11" font-weight="700" text-anchor="middle">4</text>
+        <text x="48" y="25" fill="#E2E8F0" font-family="sans-serif" font-size="12">Demand primary empirical evidence</text>
+      </g>
+
+      <g transform="translate(0, 200)">
+        <rect width="380" height="42" rx="6" fill="#132338" />
+        <circle cx="24" cy="21" r="12" fill="#1E6FD9" />
+        <text x="24" y="25" fill="#FFF" font-family="sans-serif" font-size="11" font-weight="700" text-anchor="middle">5</text>
+        <text x="48" y="25" fill="#E2E8F0" font-family="sans-serif" font-size="12">Consult teacher, adviser, or school librarian</text>
+      </g>
+
+      <g transform="translate(0, 250)">
+        <rect width="380" height="42" rx="6" fill="#132338" stroke="#FCD116" stroke-width="1" />
+        <circle cx="24" cy="21" r="12" fill="#FCD116" />
+        <text x="24" y="25" fill="#000" font-family="sans-serif" font-size="11" font-weight="700" text-anchor="middle">6</text>
+        <text x="48" y="25" fill="#FCD116" font-family="sans-serif" font-size="12" font-weight="700">Apply your own critical human judgment</text>
+      </g>
+    </g>
+
+    <text x="210" y="398" fill="#10B981" font-family="sans-serif" font-size="12" font-weight="600" text-anchor="middle">✓ Result: High-Integrity Research Defensible in Oral Defense</text>
+  </g>
+</svg>

@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1F3A" />
+      <stop offset="60%" stop-color="#11294D" />
+      <stop offset="100%" stop-color="#0A182E" />
+    </linearGradient>
+    <linearGradient id="accentGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0038A8" stop-opacity="0.7" />
+      <stop offset="50%" stop-color="#1E6FD9" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#FCD116" stop-opacity="0.6" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E2E4A" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#13223A" stop-opacity="0.9" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000" flood-opacity="0.45" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#heroBg)" />
+
+  <!-- Subtle grid and Philippine archipelago abstract geometry -->
+  <g opacity="0.08" stroke="#FFFFFF" stroke-width="1">
+    <line x1="100" y1="0" x2="100" y2="675" />
+    <line x1="300" y1="0" x2="300" y2="675" />
+    <line x1="500" y1="0" x2="500" y2="675" />
+    <line x1="700" y1="0" x2="700" y2="675" />
+    <line x1="900" y1="0" x2="900" y2="675" />
+    <line x1="1100" y1="0" x2="1100" y2="675" />
+    <line x1="0" y1="135" x2="1200" y2="135" />
+    <line x1="0" y1="270" x2="1200" y2="270" />
+    <line x1="0" y1="405" x2="1200" y2="405" />
+    <line x1="0" y1="540" x2="1200" y2="540" />
+  </g>
+
+  <!-- Abstract Philippine Sun & 3 Stars subtle motif -->
+  <g transform="translate(1020, 110)" opacity="0.85">
+    <circle cx="0" cy="0" r="32" fill="none" stroke="#FCD116" stroke-width="2.5" stroke-dasharray="4 4" />
+    <circle cx="0" cy="0" r="18" fill="#FCD116" opacity="0.85" />
+    <!-- Rays -->
+    <path d="M0 -42 L0 -24 M0 24 L0 42 M-42 0 L-24 0 M24 0 L42 0 M-30 -30 L-17 -17 M17 17 L30 30 M30 -30 L17 -17 M-17 17 L-30 30" stroke="#FCD116" stroke-width="2.5" stroke-linecap="round" />
+    <!-- 3 Stars -->
+    <circle cx="-55" cy="-35" r="4" fill="#FCD116" />
+    <circle cx="-65" cy="25" r="4" fill="#FCD116" />
+    <circle cx="50" cy="45" r="4" fill="#FCD116" />
+  </g>
+
+  <!-- Ambient Light Orbs -->
+  <circle cx="280" cy="240" r="220" fill="#0038A8" opacity="0.35" filter="blur(60px)" />
+  <circle cx="860" cy="380" r="200" fill="#1E6FD9" opacity="0.3" filter="blur(70px)" />
+  <circle cx="680" cy="180" r="140" fill="#FCD116" opacity="0.15" filter="blur(80px)" />
+
+  <!-- Educational & AI Interface Workspace (Laptop + Student Notes + Neural Logic) -->
+  <!-- Laptop Base -->
+  <g transform="translate(240, 180)" filter="url(#shadow)">
+    <!-- Laptop Screen Outer -->
+    <rect x="0" y="0" width="720" height="420" rx="20" fill="#0E1A2D" stroke="#2A3D5E" stroke-width="2" />
+    <!-- Screen Inner -->
+    <rect x="20" y="20" width="680" height="380" rx="10" fill="#080F1E" />
+    
+    <!-- Top Bar -->
+    <rect x="20" y="20" width="680" height="44" rx="10" fill="#131E33" />
+    <circle cx="44" cy="42" r="6" fill="#CE1126" opacity="0.8" />
+    <circle cx="62" cy="42" r="6" fill="#FCD116" opacity="0.8" />
+    <circle cx="80" cy="42" r="6" fill="#00D26A" opacity="0.8" />
+    <text x="360" y="47" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" text-anchor="middle">ai-learning-ph // Philippine Research &amp; Study Assistant</text>
+
+    <!-- UI Split: Left (Student Study Notes & Outline) -->
+    <rect x="40" y="80" width="280" height="300" rx="8" fill="#0D1627" stroke="#1F2F4C" stroke-width="1.5" />
+    <rect x="56" y="98" width="110" height="14" rx="4" fill="#1E6FD9" opacity="0.4" />
+    <text x="56" y="109" fill="#60A5FA" font-family="sans-serif" font-size="11" font-weight="700">FILIPINO STUDENT STUDY</text>
+    
+    <rect x="56" y="130" width="248" height="8" rx="4" fill="#334155" />
+    <rect x="56" y="146" width="210" height="8" rx="4" fill="#1E293B" />
+    <rect x="56" y="162" width="230" height="8" rx="4" fill="#1E293B" />
+    
+    <!-- Checklist: Independent Thinking -->
+    <g transform="translate(56, 195)">
+      <circle cx="6" cy="6" r="6" fill="#10B981" />
+      <path d="M3 6 L5 8 L9 4" stroke="#FFF" stroke-width="1.5" fill="none" />
+      <text x="20" y="10" fill="#E2E8F0" font-family="sans-serif" font-size="12">1. Research Questions Formulated</text>
+      
+      <circle cx="6" cy="30" r="6" fill="#10B981" />
+      <path d="M3 30 L5 32 L9 28" stroke="#FFF" stroke-width="1.5" fill="none" />
+      <text x="20" y="34" fill="#E2E8F0" font-family="sans-serif" font-size="12">2. Independent Sources Verified</text>
+
+      <circle cx="6" cy="54" r="6" fill="#FCD116" />
+      <path d="M4 54 L8 54" stroke="#000" stroke-width="1.5" fill="none" />
+      <text x="20" y="58" fill="#E2E8F0" font-family="sans-serif" font-size="12">3. AI Feedback as Study Partner</text>
+
+      <circle cx="6" cy="78" r="6" fill="#3B82F6" />
+      <path d="M6 75 L6 81 M3 78 L9 78" stroke="#FFF" stroke-width="1.5" fill="none" />
+      <text x="20" y="82" fill="#E2E8F0" font-family="sans-serif" font-size="12">4. Original Filipino Student Voice</text>
+    </g>
+
+    <rect x="56" y="315" width="248" height="42" rx="6" fill="#15243E" stroke="#1E6FD9" stroke-width="1" />
+    <text x="70" y="335" fill="#FCD116" font-family="sans-serif" font-size="11" font-weight="700">ACADEMIC INTEGRITY</text>
+    <text x="70" y="349" fill="#94A3B8" font-family="sans-serif" font-size="11">Use AI to understand, not to substitute.</text>
+
+    <!-- UI Split: Right (AI Learning Partner Node Visualizer) -->
+    <rect x="340" y="80" width="340" height="300" rx="8" fill="#0D1627" stroke="#1F2F4C" stroke-width="1.5" />
+    
+    <text x="358" y="108" fill="#E2E8F0" font-family="sans-serif" font-size="13" font-weight="600">AI Educational Guidance Model</text>
+    <rect x="358" y="125" width="304" height="60" rx="6" fill="#142137" />
+    <text x="372" y="146" fill="#60A5FA" font-family="sans-serif" font-size="11" font-weight="600">PROMPT EXAMPLE (BSIT / Senior High):</text>
+    <text x="372" y="165" fill="#CBD5E1" font-family="sans-serif" font-size="12" font-style="italic">"Explain recursion using a Filipino jeepney queue analogy..."</text>
+
+    <!-- Interactive Node Visuals -->
+    <g transform="translate(358, 205)">
+      <!-- Central Node -->
+      <circle cx="152" cy="70" r="28" fill="#1E6FD9" stroke="#60A5FA" stroke-width="2" />
+      <text x="152" y="74" fill="#FFF" font-family="sans-serif" font-size="11" font-weight="700" text-anchor="middle">CONCEPT</text>
+
+      <!-- Satellite Nodes -->
+      <line x1="152" y1="70" x2="45" y2="30" stroke="#3B82F6" stroke-width="1.5" stroke-dasharray="3 3" />
+      <circle cx="45" cy="30" r="18" fill="#0F1F38" stroke="#0038A8" stroke-width="1.5" />
+      <text x="45" y="34" fill="#93C5FD" font-family="sans-serif" font-size="9" text-anchor="middle">CONTEXT</text>
+
+      <line x1="152" y1="70" x2="260" y2="30" stroke="#FCD116" stroke-width="1.5" stroke-dasharray="3 3" />
+      <circle cx="260" cy="30" r="18" fill="#0F1F38" stroke="#FCD116" stroke-width="1.5" />
+      <text x="260" y="34" fill="#FDE047" font-family="sans-serif" font-size="9" text-anchor="middle">FACT-CHECK</text>
+
+      <line x1="152" y1="70" x2="70" y2="120" stroke="#10B981" stroke-width="1.5" stroke-dasharray="3 3" />
+      <circle cx="70" cy="120" r="18" fill="#0F1F38" stroke="#10B981" stroke-width="1.5" />
+      <text x="70" y="124" fill="#6EE7B7" font-family="sans-serif" font-size="9" text-anchor="middle">SYNTHESIS</text>
+
+      <line x1="152" y1="70" x2="235" y2="120" stroke="#CE1126" stroke-width="1.5" stroke-dasharray="3 3" />
+      <circle cx="235" cy="120" r="18" fill="#0F1F38" stroke="#CE1126" stroke-width="1.5" />
+      <text x="235" y="124" fill="#FCA5A5" font-family="sans-serif" font-size="9" text-anchor="middle">ETHICS</text>
+    </g>
+  </g>
+
+  <!-- Laptop Stand / Keyboard Edge -->
+  <polygon points="180,600 1020,600 1060,615 140,615" fill="#162235" stroke="#253550" stroke-width="1.5" />
+  <rect x="520" y="602" width="160" height="6" rx="3" fill="#2E4366" />
+
+  <!-- Floating Badge: "Philippine Education 2026" -->
+  <g transform="translate(860, 480)" filter="url(#shadow)">
+    <rect width="260" height="90" rx="12" fill="#0B1A30" stroke="#1E6FD9" stroke-width="1.5" />
+    <circle cx="36" cy="45" r="20" fill="#1E3A5F" />
+    <text x="36" y="51" fill="#FCD116" font-family="sans-serif" font-size="18" text-anchor="middle">🇵🇭</text>
+    <text x="70" y="38" fill="#FFFFFF" font-family="sans-serif" font-size="13" font-weight="700">Filipino Students Lead</text>
+    <text x="70" y="55" fill="#94A3B8" font-family="sans-serif" font-size="11">AI assists • Humans master</text>
+    <text x="70" y="70" fill="#38BDF8" font-family="sans-serif" font-size="10" font-weight="600">Critical Thinking First</text>
+  </g>
+
+  <!-- Floating Badge Left: "Study Smarter" -->
+  <g transform="translate(80, 460)" filter="url(#shadow)">
+    <rect width="220" height="74" rx="10" fill="#0B1A30" stroke="#334155" stroke-width="1.5" />
+    <circle cx="30" cy="37" r="14" fill="#10B981" opacity="0.2" />
+    <text x="30" y="42" fill="#10B981" font-family="sans-serif" font-size="13" text-anchor="middle">✓</text>
+    <text x="56" y="32" fill="#FFFFFF" font-family="sans-serif" font-size="12" font-weight="700">Digital Literacy</text>
+    <text x="56" y="48" fill="#94A3B8" font-family="sans-serif" font-size="11">Fact-checking &amp; citations</text>
+    <text x="56" y="62" fill="#FCD116" font-family="sans-serif" font-size="10">Verify every AI claim</text>
+  </g>
+</svg>
