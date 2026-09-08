@@ -1,0 +1,6 @@
+{
+  "name": "AI & Learning PH",
+  "description": "Helping Filipino Students Learn Smarter in the Age of AI — Curated educational guides, responsible AI frameworks, and digital literacy resources.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
