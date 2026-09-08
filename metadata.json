@@ -1,8 +1,0 @@
-{
-  "name": "AI & Learning PH",
-  "description": "A Philippine-focused educational technology blog helping Filipino students learn smarter and use artificial intelligence responsibly.",
-  "requestFramePermissions": [],
-  "majorCapabilities": [
-    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
-  ]
-}
